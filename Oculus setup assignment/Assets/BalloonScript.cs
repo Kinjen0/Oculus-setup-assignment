@@ -32,7 +32,7 @@ public class BalloonScript : MonoBehaviour
         }
 
         // Now we can just check if it is grabbed and the trigger is pressed, using the script from the github https://github.com/AlexWills37/UnityQuest2020Template
-        if (grabbable.isGrabbed && OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+        if (grabbable.isGrabbed && (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.Get(OVRInput.Button.SecondaryIndexTrigger)))
         {
             // Stop the object from using gravity, and update is floating to true; 
             rb.useGravity = false;

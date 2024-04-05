@@ -738,7 +738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000005722}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -27.55, y: -67.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566538500
@@ -2831,9 +2831,6 @@ GameObject:
   - component: {fileID: 2008495025421218870}
   - component: {fileID: 1429597141927298486}
   - component: {fileID: 8094920708723929158}
-  - component: {fileID: 6263420288322266766}
-  - component: {fileID: 6263420288322266768}
-  - component: {fileID: 6263420288322266767}
   m_Layer: 0
   m_Name: Basket
   m_TagString: Untagged
@@ -2841,48 +2838,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &6263420288322266766
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6263420288322266764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7945145240226619603, guid: 12208ef21ce0a1840945d3c0b2e7ede5, type: 3}
---- !u!136 &6263420288322266767
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6263420288322266764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 5.553439
-  m_Height: 20.124598
-  m_Direction: 1
-  m_Center: {x: 0, y: 7, z: 0.00000059604645}
---- !u!114 &6263420288322266768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6263420288322266764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ed0a44f56c18834aa89c35e27420f0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  upwardForce: 1
 --- !u!23 &6767027377635333724
 MeshRenderer:
   m_ObjectHideFlags: 0
