@@ -14,6 +14,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BaseScene.unity
     guid: ec13c5db5b5a4b940b7b5c664867239d
+  - enabled: 0
+    path: Assets/Scenes/ZenGarden.unity
+    guid: 2db54b520f8da6e4d85d8504cd677512
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 82540a5b29e28c14eb7ec57e11dfa3ae, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 438ebdd4764540e468315bfe9ee2082e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a4a5212bb9d4caf46bb789e6188ba312, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 62697eeda0524d547a46f76532e1fc35, type: 2}
